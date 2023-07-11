@@ -99,7 +99,7 @@ You can execute  `bash -c 'tahoma_chatgpt.sh'` for Linux or `.\tahoma_chatgpt.ba
 
 # Step by steps process to Test and Install tahoma and tahoma-pgt
 
-###You can create a vitual environnement in Python if you want to test it first. All will be installed in the tahoma-gpt directory
+### You can create a vitual environnement in Python if you want to test it first. All will be installed in the tahoma-gpt directory
 
 First you must install venv : `pip install virtualenv` or `python3 -m pip install virtualenv` or `pipx install virtualenv` to install vitual environnement
 1. Create a directory with `tahoma-gpt.py` and `requirements_tahoma-gpt.txt` inside. Download from [there](https://github.com/pzim-devdata/tahoma/blob/main/requirements_tahoma-gpt.txt) and [there](https://github.com/pzim-devdata/tahoma/blob/main/tahoma-gpt.py)
@@ -123,7 +123,7 @@ First you must install venv : `pip install virtualenv` or `python3 -m pip instal
 12. Run : `exit()` (to leave Python)
 13. Run : `deactivate` (to deactivate the vitual environnement)
 
-###To reload tahoma-gpt after this installation in a virtual env :
+### To reload tahoma-gpt after this installation in a virtual env :
 
 1. Run : `python3 -m venv env` (Windows : ` python -m venv env`)
 2. Run : `source env/bin/activate` (Windows : `.\env\Scripts\activate`)
@@ -131,7 +131,7 @@ First you must install venv : `pip install virtualenv` or `python3 -m pip instal
 4. If you only wants to run tahoma without tahoma-gpt : `python3 tahoma.py` (Windows :`python tahoma.py`)
 5. Run : `deactivate` (to deactivate the vitual environnement)
 
-###To uninstall tahoma and tahoma-gpt just remove the installation folder (tahoma-gpt)
+### To uninstall tahoma and tahoma-gpt just remove the installation folder (tahoma-gpt)
 
 You can find explanation about tahoma.py  from the original git of tahoma [there](https://github.com/pzim-devdata/tahoma#4-retrieve-your-personal-commands)
 -------------------------------------------------------------------------------------
