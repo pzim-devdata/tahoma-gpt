@@ -71,14 +71,14 @@ For Windows :
 
 7. You can now execute tahoma_chatgpt.sh for Linux or tahoma_chatgpt.bat for Windows or run tahoma-gpt.py in a vitual env (exemple for Linux):
 
-   - `cd $HOME/tahoma-gpt` (or go to the installed folder with the terminal)
-   - `python3 -m venv env`
-   - `source env/bin/activate`
-   - `python3 tahoma-gpt.py`
+   - `cd $HOME/tahoma-gpt` or ` cd c:\tahoma-gpt` (for Windows) (or go to the installed folder with the terminal)
+   - `python3 -m venv env` or ` python -m venv env` (for Windows)
+   - `source env/bin/activate` or `.\env\Scripts\activate` (for Windows)
+   - `python3 tahoma-gpt.py` or `python tahoma-gpt.py` (for Windows)
    
      If you want to run tahoma without tahoma-gpt in the same virtual environnement:
      
-   - `python3 tahoma.py` and follow instructions [there](https://github.com/pzim-devdata/tahoma#4-retrieve-your-personal-commands)
+   - `python3 tahoma.py` or `python tahoma.py` (for Windows) and follow instructions [there](https://github.com/pzim-devdata/tahoma#4-retrieve-your-personal-commands)
 
 8. You can also execute orders as arguments :
      
@@ -86,7 +86,7 @@ For Windows :
      or
    - `bash -c 'tahoma_chatgpt.sh could you please open the shutter in the kitchen ?'`
      or
-   - `tahoma_chatgpt.bat could you please open the shutter in the kitchen ?`
+   - `.\tahoma_chatgpt.bat could you please open the shutter in the kitchen ?`
 
 
 By following these steps, Tahoma and Tahoma-GPT will be installed on your Linux or Windows system in a virtual environnement.
@@ -100,8 +100,8 @@ First you must install venv : `pip install virtualenv` or `python3 -m pip instal
 1. Create a directory with `tahoma-gpt.py` and `requirements_tahoma-gpt.txt` inside. Download from [there](https://github.com/pzim-devdata/tahoma/blob/main/requirements_tahoma-gpt.txt) and [there](https://github.com/pzim-devdata/tahoma/blob/main/tahoma-gpt.py)
 2. Open a terminal
 3. `cd` in the directory you have just created
-4. Run : `python3 -m venv env` (Windows : `virtualenv --python C:\Path\To\Python\python.exe venv`)
-5. Run : `source env/bin/activate` (Windows : `.\venv\Scripts\activate`)
+4. Run : `python3 -m venv env` (Windows : ` python -m venv env`)
+5. Run : `source env/bin/activate` (Windows : `.\env\Scripts\activate`)
 6. Install tahoma and configure it (if it's not already done) :
 
     6.1. Run : `python3 -m pip install -U tahoma`
