@@ -3,8 +3,8 @@
 
 
 
-<p align="center" width="33%">
-    <img width="33%" src="https://github.com/pzim-devdata/tahoma/blob/main/tahoma-gpt.png"> 
+<p align="center" width="100%">
+    <img width="15%" src="https://github.com/pzim-devdata/tahoma/blob/main/tahoma-gpt.png"> 
 </p>
 
 
