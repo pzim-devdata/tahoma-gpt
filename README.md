@@ -66,7 +66,7 @@ For Linux :
 
 For Windows :
 
-   - `& "install_tahoma_gpt_windows.bat"`
+   - `& "./install_tahoma_gpt_windows.bat"`
 
 7. You can now execute tahoma_chatgpt.sh for Linux or tahoma_chatgpt.bat for Windows or run tahoma-gpt.py in a vitual env (exemple for Linux):
 
