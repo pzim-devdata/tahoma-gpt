@@ -33,7 +33,7 @@ THIS TAG DOESN'T WORK, DON'T TRUST IT : ![GitHub All Releases](https://img.shiel
 
 If you want to install Tahoma and Tahoma-GPT using a simple script on Linux, follow these steps:
 
-1. Open your terminal or Powershell and navigate to the directory where you want to download the script `install_tahoma-gpt.sh` for Linux and `install_tahoma_gpt_windows.bat` for Windows.
+1. Open your terminal (for Linux) or Powershell as asministrator (for Windows) and navigate to the directory where you want to download the script `install_tahoma-gpt.sh` for Linux and `install_tahoma_gpt_windows.bat` for Windows.
 
    For example for Linux:
    - `mkdir $HOME/tahoma-gpt`
