@@ -68,7 +68,7 @@ For Windows :
 
    - `& "install_tahoma_gpt_windows.bat"`
 
-7. You can now start tahoma-gpt.py in vitual env (exemple for Linux):
+7. You can now execute tahoma_chatgpt.sh for Linux or tahoma_chatgpt.bat for Windows or run tahoma-gpt.py in a vitual env (exemple for Linux):
 
    - `cd $HOME/tahoma-gpt` (or go to the installed folder with the terminal)
    - `python3 -m venv env`
@@ -79,9 +79,14 @@ For Windows :
      
    - `python3 tahoma.py` and follow instructions [there](https://github.com/pzim-devdata/tahoma#4-retrieve-your-personal-commands)
 
-     You can also execute orders as arguments :
+8. You can also execute orders as arguments :
      
-   - `python3 "tahoma-gpt.py" could you please open the shutter in the kitchen ?` 
+   - `python3 "tahoma-gpt.py" could you please open the shutter in the kitchen ?`
+     or
+   - `bash -c 'tahoma_chatgpt.sh could you please open the shutter in the kitchen ?'`
+     or
+   - `tahoma_chatgpt.bat could you please open the shutter in the kitchen ?`
+
 
 By following these steps, Tahoma and Tahoma-GPT will be installed on your Linux or Windows system in a virtual environnement.
 
