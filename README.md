@@ -2,9 +2,11 @@
 [UP TO DATE] Tahoma-gpt is an addon for [tahoma by pzim-devdata](https://github.com/pzim-devdata/tahoma/tree/main) for controlling Somfy Tahoma devices using ChatGPT and for getting help about tahoma by pzim-devdata
 
 
-<p align="center" width="50%">
+
+<p align="center" width="33%">
     <img width="33%" src="https://github.com/pzim-devdata/tahoma/blob/main/tahoma-gpt.png"> 
 </p>
+
 
 
 [![GitHub license](https://img.shields.io/github/license/pzim-devdata/tahoma?style=plastic)](https://github.com/pzim-devdata/tahoma-gpt/blob/main/LICENSE)    ![](https://img.shields.io/badge/Works%20with-Python%203-red?style=plastic)    ![GitHub issues](https://img.shields.io/github/issues/pzim-devdata/tahoma-gpt?style=plastic)    [](https://github.com/pzim-devdata/tahoma-gpt/issues)    ![GitHub repo size](https://img.shields.io/github/repo-size/pzim-devdata/tahoma-gpt?style=plastic)    [![Visits Badge](https://badges.strrl.dev/visits/pzim-devdata/tahoma-gpt)](https://badges.strrl.dev)    ![GitHub release (latest by date)](https://img.shields.io/github/v/release/pzim-devdata/tahoma-gpt?style=plastic)    [![GitHub commits](https://img.shields.io/github/commits-since/pzim-devdata/tahoma-gpt/v2.2.0.svg?style=plastic)](https://GitHub.com/pzim-devata/tahoma-gpt/commit/)    
