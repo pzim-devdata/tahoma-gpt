@@ -82,14 +82,19 @@ For Windows :
 
 8. You can also execute orders as arguments :
      
-   - `python3 "tahoma-gpt.py" could you please open the shutter in the kitchen ?`
+   - For Linux :
+
+      `bash -c 'tahoma_chatgpt.sh could you please open the shutter in the kitchen ?'`
+
      or
-   - `bash -c 'tahoma_chatgpt.sh could you please open the shutter in the kitchen ?'`
-     or
-   - `.\tahoma_chatgpt.bat could you please open the shutter in the kitchen ?`
+     
+   - For Windows :
+
+     `.\tahoma_chatgpt.bat could you please open the shutter in the kitchen ?`
 
 
-By following these steps, Tahoma and Tahoma-GPT will be installed on your Linux or Windows system in a virtual environnement.
+By following these steps, Tahoma and Tahoma-GPT will be installed on your Linux or Windows system in a virtual environnement. 
+You can execute  `bash -c 'tahoma_chatgpt.sh'` for Linux or `.\tahoma_chatgpt.bat` for Windows to run it in the folder of tahoma-gpt.
 
 
 # Step by steps process to Test and Install tahoma and tahoma-pgt
@@ -104,19 +109,29 @@ First you must install venv : `pip install virtualenv` or `python3 -m pip instal
 5. Run : `source env/bin/activate` (Windows : `.\env\Scripts\activate`)
 6. Install tahoma and configure it (if it's not already done) :
 
-    6.1. Run : `python3 -m pip install -U tahoma`
+    6.1. Run : `python3 -m pip install -U tahoma` or `python -m pip install -U tahoma`
 
-    6.2 Configure `tahoma : tahoma -c`
+    6.2 Configure tahoma : `tahoma -c`
 
     6.3 Get the list of your devices : `tahoma -g`
 
-7. Run : `python3 -m pip install -r requirements_tahoma-gpt.txt`
+7. Run : `python3 -m pip install -r requirements_tahoma-gpt.txt` or `python -m pip install -r requirements_tahoma-gpt.txt`
 8. Modify the script `tahoma-gpt.py` with a notepad to add OpenAI API key
-9. Run : `python3 tahoma-gpt.py`
+9. Run : `python3 tahoma-gpt.py` or `python tahoma-gpt.py`
 10. Play with tahoma and ChatGPT
 11. Run : `exit` (to leave tahoma-gpt)
 12. Run : `exit()` (to leave Python)
 13. Run : `deactivate` (to deactivate the vitual environnement)
+
+To reload tahoma-gpt after this installation in a virtual env :
+
+1. Run : `python3 -m venv env` (Windows : ` python -m venv env`)
+2. Run : `source env/bin/activate` (Windows : `.\env\Scripts\activate`)
+3. Run tahoma-gpt with tahoma : `python3 tahoma-gpt.py` (Windows :`python tahoma-gpt.py`)
+4. If you only wants to run tahoma without tahoma-gpt : `python3 tahoma.py` (Windows :`python tahoma.py`)
+5. Run : `deactivate` (to deactivate the vitual environnement)
+
+To uninstall tahoma and tahoma-gpt just remove the installation folder (tahoma-gpt)
 
 You can find explanation about tahoma.py  from the original git of tahoma [there](https://github.com/pzim-devdata/tahoma#4-retrieve-your-personal-commands)
 -------------------------------------------------------------------------------------
