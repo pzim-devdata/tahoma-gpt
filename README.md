@@ -42,6 +42,7 @@ If you want to install Tahoma and Tahoma-GPT using a simple script on Linux, fol
    For exemple for Windows:
    - `New-Item -ItemType Directory -Path "C:\tahoma-gpt"`
    - `Set-Location -Path "C:\tahoma-gpt"`
+   - `Set-ExecutionPolicy RemoteSigned`
  
 3. Download the script `install_tahoma-gpt.sh` using the following command:
 
