@@ -13,7 +13,7 @@
 <!---
 THIS TAG DOESN'T WORK, DON'T TRUST IT : ![GitHub All Releases](https://img.shields.io/github/downloads/pzim-devdata/tahoma-gpt/total?style=plastic) 
 -->
-[![Downloads](https://static.pepy.tech/personalized-badge/tahoma?period=total&units=international_system&left_color=grey&right_color=blue&left_text=PyPI%20downloads)](https://pepy.tech/project/tahoma) 
+[![Downloads](https://static.pepy.tech/personalized-badge/tahoma?period=total&units=international_system&left_color=grey&right_color=blue&left_text=PyPI%20downloads)](https://pepy.tech/project/tahoma-gpt) 
 
 # Features
 
